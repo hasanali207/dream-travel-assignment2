@@ -1,0 +1,159 @@
+@media screen and (max-width: 600px) {
+  .sec2,
+  .popular-wrapper,
+  .sec3,
+  .special-section,
+  .sec4,
+  .sec5,
+  .sec7,
+  .footer {
+    margin-top: 30px;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .logo h1 {
+    font-size: 2rem;
+  }
+  .nav-bar-icon {
+    display: block;
+  }
+  .nav-bar-icon .fa {
+    width: 16.5px;
+    height: auto;
+    cursor: pointer;
+    color: var(--black-color);
+  }
+  .nav-menu ul {
+    display: none;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+    padding: 0 20px;
+  }
+  .explore-wrapper {
+    padding: 60px 0;
+  }
+  .banner-desc {
+    padding: 0 20px;
+    margin-top: 12px;
+  }
+  .banner-form {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+
+  .banner-form input {
+    width: 82%;
+    margin-bottom: 7px;
+  }
+  .form-btn {
+    width: 83%;
+    justify-content: center;
+    padding: 16px;
+  }
+  .form-btn .fa-solid {
+    margin-right: 5px;
+  }
+  .banner-form select {
+    width: 90%;
+    margin: 5px 0;
+  }
+  .destination-1,
+  .destination-2,
+  .destination-3 {
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .des-image {
+    margin-bottom: 20px;
+    height: 230px;
+  }
+
+  .choose-topper-sec .left-content {
+    width: 90%;
+  }
+  .choose-topper-sec .right-content {
+    width: 90%;
+  }
+  .popular-wrapper {
+    flex-direction: column;
+  }
+  .popular-wrapper button {
+    margin-bottom: 20px;
+  }
+  .popular-wrapper img{
+    height: 342px;
+  }
+  .leftcontent img {
+    height: 300px;
+  }
+
+  .popular-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .choose-topper-sec,
+  .mountain-wrapper,
+  .newsletter-wrapper {
+    flex-direction: column;
+  }
+
+  .bottom-content {
+    width: 100%;
+  }
+
+  .tour-place1,
+  .tour-place2,
+  .tour-place3 {
+    padding: 150px 0 0;
+    margin: 20px 0;
+    justify-content: center;
+  }
+  .tour-card {
+    padding: 30px 10px;
+    width: 80%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .tour-place2 .tour-card {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .tour-card ul {
+    flex-wrap: wrap;
+  }
+  .tour-card ul li {
+    margin: 5px;
+  }
+  .tour-card ul li:first-child {
+    width: 100%;
+  }
+
+  .all-package {
+    padding: 20px 0 30px;
+  }
+  .newsletter-area {
+    width: 100%;
+    padding: 20px;
+  }
+  .newsletter-wrapper .right-area {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .right-area .offter-text {
+    font-size: 1.5rem;
+    width: 45%;
+    right: 3%;
+    bottom: 14%;
+  }
+  .right-area .offter-text span {
+    font-size: 1rem;
+  }
+}
